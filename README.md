@@ -2,6 +2,8 @@
 
 Correlational analysis identifying which customer behavior signals are most strongly associated with revenue generation on a Latin American e-commerce platform, using a synthetic 2024 customer behavior dataset (15,000 customers).
 
+> **Note:** the underlying dataset is not included in this repository. The notebook is provided with all outputs (tables, charts, and results) already generated, so the full analysis can be reviewed directly on GitHub without re-running any code.
+
 ## Business Problem
 
 NovaRetail+'s Growth & Retention team needed to answer one question ahead of their 2025 planning cycle:
@@ -32,11 +34,8 @@ The goal was to move the team's growth strategy away from assumptions and toward
 
 ```
 ├── notebooks/
-│   └── novaretail_revenue_correlation_analysis.ipynb
-├── data/
-│   └── novaretail_customer_behavior_2024.csv
-├── screenshots/
-│   └── (key visualizations exported as images)
+│   └── novaretail_revenue_correlation_analysis.ipynb   (includes all outputs)
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
